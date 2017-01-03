@@ -9,9 +9,16 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   background-color: #333;
+}
+
+.title {
+  color: #999;
+  margin-top: 15px;
+  font-size: 1.5em;
 }
 
 .tableau {
@@ -94,6 +101,11 @@ body {
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
   position: absolute;
+  cursor: pointer;
+}
+
+.post-it:hover {
+  cursor: pointer;
 }
 
 .post-it p {

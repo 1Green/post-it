@@ -6,6 +6,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Tableau/>
+        <div className="title">https://github.com/1Green/post-it</div>
       </div>
     );
   }

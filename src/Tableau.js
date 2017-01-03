@@ -61,7 +61,7 @@ export default class Tableau extends Component {
            })
   
         }
-      
+        
         </div>
     );
   }
