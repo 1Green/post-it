@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.tableau {
+  width: 85vw;
+  height: 85vh;
+  background-color: sandybrown;
+  box-shadow: 0 0 20px 0px saddlebrown inset;
+  position: relative;
+}
+
+.add-button {
+  border-radius: 100%;
+  display:  inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  text-align: center;
+  background-color: lawngreen;
+  color: black;
+  box-shadow: 0 1px 1px 0px black;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  box-shadow: 0 0 1px 0px black;
+  top: 6px;
+  transition: all 0.1s ease-in-out;
+}
+
+
+.validate-button {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: -27px;
+  background-color: yellow;
+  color: black;
+  box-shadow: 0 1px 1px 0px black;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.delete-button {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  align-self: flex-end;
+  position: absolute;
+  color: black;
+  top: 5px;
+  right: 5px;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.post-it {
+  background:#fefabc;
+  padding:10px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:20px;
+  color: #000;
+  min-width:150px;
+
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  position: absolute;
+}
+
+.post-it p {
+  margin: 5px;
+}
+
+.inputs {
+  position: absolute;
+  right: 35px;
+  top: 0px;
+  width: 10vw;
+  display: flex;
+  flex-flow: column nowrap;
+  z-index: 999;
+}
+
+input[type="text"] {
+  margin-top: 7px;
+  outline: none;
+  border: 1px solid #333;
+  padding: 2px 2px 2px 5px;
+  background-color: whitesmoke;
+}
+
+input[type="text"]:focus {
+  border: 1px solid black;
+  background-color: white;
+}
