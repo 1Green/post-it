@@ -2,6 +2,7 @@
   "name": "PostIt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://1green.github.io/post-it",
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
